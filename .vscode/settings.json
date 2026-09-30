@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on"
+  },
+  "prettier.enable": true,
+  "cSpell.language": "en",
+  "cSpell.enabledFileTypes": { "markdown": true },
+  "editor.codeActionsOnSave": { "source.fixAll.biome": "explicit" }
+}

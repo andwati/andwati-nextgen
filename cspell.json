@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "files": ["content/**/*.md"],
+  "dictionaries": ["project-words"],
+  "dictionaryDefinitions": [
+    { "name": "project-words", "path": "./.cspell/words.txt", "addWords": true }
+  ],
+  "ignoreRegExpList": [
+    "/^\\s*```[\\s\\S]*?^\\s*```/gm",
+    "/`[^`\\n]+`/g",
+    "/\\$\\$[\\s\\S]*?\\$\\$/g",
+    "/\\$[^$\\n]+\\$/g",
+    "/\\b[0-9a-f]{16,}\\b/gi",
+    "/\\w+\\{[^}\\n]*\\}/g"
+  ]
+}

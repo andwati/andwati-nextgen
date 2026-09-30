@@ -1,0 +1,4 @@
+# Prettier only formats writing/pages. Biome owns code, CSS and JSON.
+*
+!content/
+!content/**
